@@ -25,7 +25,14 @@
   <body>
     <div class="container mt-5">
         <div class="card border-danger mb-3">
-            <div class="card-header border-danger h2">OFFENSIVE</div>
+            <div class="card-header border-danger"> 
+                <div class="d-flex align-items-center"> 
+                    <h2 class="mb-0">OFFENSIVE</h2> 
+                    <div class="ms-auto d-flex align-items-center"> <input type="checkbox" onclick="selectAllCheckboxes1(this)" class="form-check-input" id="sa1" name="sa1" value=""> 
+                    <label class="form-check-label ms-2" for="check1">Select all</label> 
+                </div> 
+            </div> 
+            </div>
             <div class="card-body">
                 <div class="container text-center">
                     <div class="row mb-3">
@@ -34,93 +41,93 @@
                             <label class="form-check-label ms-2 ms-2" for="check1">Orbital Gatling Barrage</label>
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="Orbital Airburst Strike" checked>
-                            <label class="form-check-label ms-2" for="check1">Orbital Airburst Strike</label>
+                            <input type="checkbox" class="form-check-input" id="check12" name="option1" value="Orbital Airburst Strike" checked>
+                            <label class="form-check-label ms-2" for="check2">Orbital Airburst Strike</label>
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="Orbital 120mm HE Barrage" checked>
-                            <label class="form-check-label ms-2 " for="check1">Orbital 120mm HE Barrage</label>
+                            <input type="checkbox" class="form-check-input" id="check3" name="option1" value="Orbital 120mm HE Barrage" checked>
+                            <label class="form-check-label ms-2 " for="check3">Orbital 120mm HE Barrage</label>
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="Orbital 380mm HE Barrage" checked>
-                            <label class="form-check-label ms-2" for="check1">Orbital 380mm HE Barrage</label>
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="Orbital Walking Barrage" checked>
-                            <label class="form-check-label ms-2" for="check1">Orbital Walking Barrage</label>
-                        </div>
-                        <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="Orbital Laser" checked>
-                            <label class="form-check-label ms-2" for="check1">Orbital Laser</label>
-                        </div>
-                        <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="Orbital Napalm Barrage" checked>
-                            <label class="form-check-label ms-2" for="check1">Orbital Napalm Barrage</label>
-                        </div>
-                        <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="Orbital Railcannon Strike" checked>
-                            <label class="form-check-label ms-2" for="check1">Orbital Railcannon Strike</label>
+                            <input type="checkbox" class="form-check-input" id="check4" name="option1" value="Orbital 380mm HE Barrage" checked>
+                            <label class="form-check-label ms-2" for="check4">Orbital 380mm HE Barrage</label>
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="Eagle Strafing Run" checked>
-                            <label class="form-check-label ms-2" for="check1">Eagle Strafing Run</label>
-                            
+                            <input type="checkbox" class="form-check-input" id="check5" name="option1" value="Orbital Walking Barrage" checked>
+                            <label class="form-check-label ms-2" for="check5">Orbital Walking Barrage</label>
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="Eagle Airstrike" checked>
-                            <label class="form-check-label ms-2" for="check1">Eagle Airstrike</label>
-                            
+                            <input type="checkbox" class="form-check-input" id="check6" name="option1" value="Orbital Laser" checked>
+                            <label class="form-check-label ms-2" for="check6">Orbital Laser</label>
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="Eagle Cluster Bomb" checked>
-                            <label class="form-check-label ms-2" for="check1">Eagle Cluster Bomb</label>
-                            
+                            <input type="checkbox" class="form-check-input" id="check7" name="option1" value="Orbital Napalm Barrage" checked>
+                            <label class="form-check-label ms-2" for="check7">Orbital Napalm Barrage</label>
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="Eagle Napalm Airstrike" checked>
-                            <label class="form-check-label ms-2" for="check1">Eagle Napalm Airstrike</label>
+                            <input type="checkbox" class="form-check-input" id="check8" name="option1" value="Orbital Railcannon Strike" checked>
+                            <label class="form-check-label ms-2" for="check8">Orbital Railcannon Strike</label>
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="Eagle Smoke Strike" checked>
-                            <label class="form-check-label ms-2" for="check1">Eagle Smoke Strike</label>
+                            <input type="checkbox" class="form-check-input" id="check9" name="option1" value="Eagle Strafing Run" checked>
+                            <label class="form-check-label ms-2" for="check9">Eagle Strafing Run</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="Eagle 110mm Rocket Pods" checked>
-                            <label class="form-check-label ms-2" for="check1">Eagle 110mm Rocket Pods</label>
+                            <input type="checkbox" class="form-check-input" id="check10" name="option1" value="Eagle Airstrike" checked>
+                            <label class="form-check-label ms-2" for="check10">Eagle Airstrike</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="Eagle 500kg Bomb" checked>
-                            <label class="form-check-label ms-2" for="check1">Eagle 500kg Bomb</label>
+                            <input type="checkbox" class="form-check-input" id="check11" name="option1" value="Eagle Cluster Bomb" checked>
+                            <label class="form-check-label ms-2" for="check11">Eagle Cluster Bomb</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="Orbital Precision Strike" checked>
-                            <label class="form-check-label ms-2" for="check1">Orbital Precision Strike</label>
+                            <input type="checkbox" class="form-check-input" id="check12" name="option1" value="Eagle Napalm Airstrike" checked>
+                            <label class="form-check-label ms-2" for="check12">Eagle Napalm Airstrike</label>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <input type="checkbox" class="form-check-input" id="check13" name="option1" value="Eagle Smoke Strike" checked>
+                            <label class="form-check-label ms-2" for="check13">Eagle Smoke Strike</label>
+                            
+                        </div>
+                        <div class="col">
+                            <input type="checkbox" class="form-check-input" id="check13" name="option1" value="Eagle 110mm Rocket Pods" checked>
+                            <label class="form-check-label ms-2" for="check13">Eagle 110mm Rocket Pods</label>
+                            
+                        </div>
+                        <div class="col">
+                            <input type="checkbox" class="form-check-input" id="check14" name="option1" value="Eagle 500kg Bomb" checked>
+                            <label class="form-check-label ms-2" for="check14">Eagle 500kg Bomb</label>
+                            
+                        </div>
+                        <div class="col">
+                            <input type="checkbox" class="form-check-input" id="check15" name="option1" value="Orbital Precision Strike" checked>
+                            <label class="form-check-label ms-2" for="check15">Orbital Precision Strike</label>
                             
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="Orbital Gas Strike" checked>
-                            <label class="form-check-label ms-2" for="check1">Orbital Gas Strike</label>
+                            <input type="checkbox" class="form-check-input" id="check16" name="option1" value="Orbital Gas Strike" checked>
+                            <label class="form-check-label ms-2" for="check16">Orbital Gas Strike</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="Orbital EMS Strike" checked>
-                            <label class="form-check-label ms-2" for="check1">Orbital EMS Strike</label>
+                            <input type="checkbox" class="form-check-input" id="check17" name="option1" value="Orbital EMS Strike" checked>
+                            <label class="form-check-label ms-2" for="check17">Orbital EMS Strike</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="Orbital Smoke Strike" checked>
-                            <label class="form-check-label ms-2" for="check1">Orbital Smoke Strike</label>
+                            <input type="checkbox" class="form-check-input" id="check18" name="option1" value="Orbital Smoke Strike" checked>
+                            <label class="form-check-label ms-2" for="check18">Orbital Smoke Strike</label>
                             
                         </div>
                         <div class="col">
@@ -132,164 +139,171 @@
         </div>
 
         <div class="card border-primary mb-3">
-            <div class="card-header border-primary h2">SUPPORT</div>
+            <div class="card-header border-primary"> 
+                <div class="d-flex align-items-center"> 
+                    <h2 class="mb-0">SUPPORT</h2> 
+                    <div class="ms-auto d-flex align-items-center"> <input type="checkbox" onclick="selectAllCheckboxes2(this)" class="form-check-input" id="sa2" name="sa2" value=""> 
+                    <label class="form-check-label ms-2" for="check1">Select all</label> 
+                </div> 
+            </div> 
+            </div>
             <div class="card-body">
                 <div class="container text-center">
                     <div class="row mb-3">
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="MG-43 Machine Gun" checked>
-                            <label class="form-check-label ms-2" for="check1">MG-43 Machine Gun</label>
+                            <input type="checkbox" class="form-check-input" id="check19" name="option2" value="MG-43 Machine Gun" checked>
+                            <label class="form-check-label ms-2" for="check19">MG-43 Machine Gun</label>
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="APW-1 Anti-Materiel Rifle" checked>
-                            <label class="form-check-label ms-2" for="check1">APW-1 Anti-Materiel Rifle</label>
+                            <input type="checkbox" class="form-check-input" id="check20" name="option2" value="APW-1 Anti-Materiel Rifle" checked>
+                            <label class="form-check-label ms-2" for="check20">APW-1 Anti-Materiel Rifle</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="M-105 Stalwart" checked>
-                            <label class="form-check-label ms-2" for="check1">M-105 Stalwart</label>
+                            <input type="checkbox" class="form-check-input" id="check21" name="option2" value="M-105 Stalwart" checked>
+                            <label class="form-check-label ms-2" for="check21">M-105 Stalwart</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="EAT-17 Expendable Anti-Tank" checked>
-                            <label class="form-check-label ms-2" for="check1">EAT-17 Expendable Anti-Tank</label>
-                            
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="GR-8 Recoilless Rifle" checked>
-                            <label class="form-check-label ms-2" for="check1">GR-8 Recoilless Rifle</label>
-                            
-                        </div>
-                        <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="FLAM-40 Flamethrower" checked>
-                            <label class="form-check-label ms-2" for="check1">FLAM-40 Flamethrower</label>
-                            
-                        </div>
-                        <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="AC-8 Autocannon" checked>
-                            <label class="form-check-label ms-2" for="check1">AC-8 Autocannon</label>
-                            
-                        </div>
-                        <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="MG-206 Heavy Machine Gun" checked>
-                            <label class="form-check-label ms-2" for="check1">MG-206 Heavy Machine Gun</label>
+                            <input type="checkbox" class="form-check-input" id="check22" name="option2" value="EAT-17 Expendable Anti-Tank" checked>
+                            <label class="form-check-label ms-2" for="check22">EAT-17 Expendable Anti-Tank</label>
                             
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="RL-77 Airburst Rocket" checked>
-                            <label class="form-check-label ms-2" for="check1">RL-77 Airburst Rocket</label>
+                            <input type="checkbox" class="form-check-input" id="check23" name="option2" value="GR-8 Recoilless Rifle" checked>
+                            <label class="form-check-label ms-2" for="check23">GR-8 Recoilless Rifle</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="MLS-4X Commando" checked>
-                            <label class="form-check-label ms-2" for="check1">MLS-4X Commando</label>
+                            <input type="checkbox" class="form-check-input" id="check24" name="option2" value="FLAM-40 Flamethrower" checked>
+                            <label class="form-check-label ms-2" for="check24">FLAM-40 Flamethrower</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="RS-422 Railgun" checked>
-                            <label class="form-check-label ms-2" for="check1">RS-422 Railgun</label>
+                            <input type="checkbox" class="form-check-input" id="check25" name="option2" value="AC-8 Autocannon" checked>
+                            <label class="form-check-label ms-2" for="check25">AC-8 Autocannon</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="FAF-14 Spear" checked>
-                            <label class="form-check-label ms-2" for="check1">FAF-14 Spear</label>
-                            
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="StA-X3 W.A.S.P. Launcher" checked>
-                            <label class="form-check-label ms-2" for="check1">StA-X3 W.A.S.P. Launcher</label>
-                            
-                        </div>
-                        <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="LIFT-850 Jump Pack" checked>
-                            <label class="form-check-label ms-2" for="check1">LIFT-850 Jump Pack</label>
-                            
-                        </div>
-                        <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="M-102 Fast Recon Vehicle" checked>
-                            <label class="form-check-label ms-2" for="check1">M-102 Fast Recon Vehicle</label>
-                            
-                        </div>
-                        <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="B-1 Supply Pack" checked>
-                            <label class="form-check-label ms-2" for="check1">B-1 Supply Pack</label>
+                            <input type="checkbox" class="form-check-input" id="check26" name="option2" value="MG-206 Heavy Machine Gun" checked>
+                            <label class="form-check-label ms-2" for="check26">MG-206 Heavy Machine Gun</label>
                             
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="GL-21 Grenade Launcher" checked>
-                            <label class="form-check-label ms-2" for="check1">GL-21 Grenade Launcher</label>
+                            <input type="checkbox" class="form-check-input" id="check27" name="option2" value="RL-77 Airburst Rocket" checked>
+                            <label class="form-check-label ms-2" for="check27">RL-77 Airburst Rocket</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="LAS-98 Laser Cannon" checked>
-                            <label class="form-check-label ms-2" for="check1">LAS-98 Laser Cannon</label>
+                            <input type="checkbox" class="form-check-input" id="check28" name="option2" value="MLS-4X Commando" checked>
+                            <label class="form-check-label ms-2" for="check28">MLS-4X Commando</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="AX/LAS-5 Guard Dog Rover" checked>
-                            <label class="form-check-label ms-2" for="check1">AX/LAS-5 Guard Dog Rover</label>
+                            <input type="checkbox" class="form-check-input" id="check29" name="option2" value="RS-422 Railgun" checked>
+                            <label class="form-check-label ms-2" for="check29">RS-422 Railgun</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="SH-20 Ballistic Shield" checked>
-                            <label class="form-check-label ms-2" for="check1">SH-20 Ballistic Shield</label>
+                            <input type="checkbox" class="form-check-input" id="check30" name="option2" value="FAF-14 Spear" checked>
+                            <label class="form-check-label ms-2" for="check30">FAF-14 Spear</label>
+                            
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <input type="checkbox" class="form-check-input" id="check31" name="option2" value="StA-X3 W.A.S.P. Launcher" checked>
+                            <label class="form-check-label ms-2" for="check31">StA-X3 W.A.S.P. Launcher</label>
+                            
+                        </div>
+                        <div class="col">
+                            <input type="checkbox" class="form-check-input" id="check32" name="option2" value="LIFT-850 Jump Pack" checked>
+                            <label class="form-check-label ms-2" for="check32">LIFT-850 Jump Pack</label>
+                            
+                        </div>
+                        <div class="col">
+                            <input type="checkbox" class="form-check-input" id="check33" name="option2" value="M-102 Fast Recon Vehicle" checked>
+                            <label class="form-check-label ms-2" for="check33">M-102 Fast Recon Vehicle</label>
+                            
+                        </div>
+                        <div class="col">
+                            <input type="checkbox" class="form-check-input" id="check34" name="option2" value="B-1 Supply Pack" checked>
+                            <label class="form-check-label ms-2" for="check34">B-1 Supply Pack</label>
+                            
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <input type="checkbox" class="form-check-input" id="check35" name="option2" value="GL-21 Grenade Launcher" checked>
+                            <label class="form-check-label ms-2" for="check35">GL-21 Grenade Launcher</label>
+                            
+                        </div>
+                        <div class="col">
+                            <input type="checkbox" class="form-check-input" id="check36" name="option2" value="LAS-98 Laser Cannon" checked>
+                            <label class="form-check-label ms-2" for="check36">LAS-98 Laser Cannon</label>
+                            
+                        </div>
+                        <div class="col">
+                            <input type="checkbox" class="form-check-input" id="check37" name="option2" value="AX/LAS-5 Guard Dog Rover" checked>
+                            <label class="form-check-label ms-2" for="check37">AX/LAS-5 Guard Dog Rover</label>
+                            
+                        </div>
+                        <div class="col">
+                            <input type="checkbox" class="form-check-input" id="check38" name="option2" value="SH-20 Ballistic Shield" checked>
+                            <label class="form-check-label ms-2" for="check38">SH-20 Ballistic Shield</label>
                 
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="ARC-3 Arc Thrower" checked>
-                            <label class="form-check-label ms-2" for="check1">ARC-3 Arc Thrower</label>
+                            <input type="checkbox" class="form-check-input" id="check39" name="option2" value="ARC-3 Arc Thrower" checked>
+                            <label class="form-check-label ms-2" for="check39">ARC-3 Arc Thrower</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="LAS-99 Quasar Cannon" checked>
-                            <label class="form-check-label ms-2" for="check1">LAS-99 Quasar Cannon</label>
+                            <input type="checkbox" class="form-check-input" id="check40" name="option2" value="LAS-99 Quasar Cannon" checked>
+                            <label class="form-check-label ms-2" for="check40">LAS-99 Quasar Cannon</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="SH-32 Shield Generator" checked>
-                            <label class="form-check-label ms-2" for="check1">SH-32 Shield Generator</label>
+                            <input type="checkbox" class="form-check-input" id="check41" name="option2" value="SH-32 Shield Generator" checked>
+                            <label class="form-check-label ms-2" for="check41">SH-32 Shield Generator</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="AX/AR-23 Guard Dog" checked>
-                            <label class="form-check-label ms-2" for="check1">AX/AR-23 Guard Dog</label>
+                            <input type="checkbox" class="form-check-input" id="check42" name="option2" value="AX/AR-23 Guard Dog" checked>
+                            <label class="form-check-label ms-2" for="check42">AX/AR-23 Guard Dog</label>
                             
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="EXO-45 Patriot Exosuit" checked>
-                            <label class="form-check-label ms-2" for="check1">EXO-45 Patriot Exosuit</label>
+                            <input type="checkbox" class="form-check-input" id="check43" name="option2" value="EXO-45 Patriot Exosuit" checked>
+                            <label class="form-check-label ms-2" for="check43">EXO-45 Patriot Exosuit</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="EXO-49 Emancipator Exosuit" checked>
-                            <label class="form-check-label ms-2" for="check1">EXO-49 Emancipator Exosuit</label>
+                            <input type="checkbox" class="form-check-input" id="check44" name="option2" value="EXO-49 Emancipator Exosuit" checked>
+                            <label class="form-check-label ms-2" for="check44">EXO-49 Emancipator Exosuit</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="TX-41 Sterilizer">
-                            <label class="form-check-label ms-2" for="check1">TX-41 Sterilizer</label>
+                            <input type="checkbox" class="form-check-input" id="check45" name="option2" value="TX-41 Sterilizer">
+                            <label class="form-check-label ms-2" for="check45">TX-41 Sterilizer</label>
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="AX/TX-13 Dog Breath">
-                            <label class="form-check-label ms-2" for="check1">AX/TX-13 Dog Breath</label>
+                            <input type="checkbox" class="form-check-input" id="check46" name="option2" value="AX/TX-13 Dog Breath">
+                            <label class="form-check-label ms-2" for="check46">AX/TX-13 Dog Breath</label>
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="SH-51 Directional Shield">
-                            <label class="form-check-label ms-2" for="check1">SH-51 Directional Shield</label>
+                            <input type="checkbox" class="form-check-input" id="check47" name="option2" value="SH-51 Directional Shield">
+                            <label class="form-check-label ms-2" for="check47">SH-51 Directional Shield</label>
                         </div>
                         <div class="col">
                             
@@ -306,87 +320,94 @@
         </div>
 
         <div class="card border-success mb-3">
-            <div class="card-header border-success h2">DEFENSIVE</div>
+            <div class="card-header border-success">                
+                <div class="d-flex align-items-center"> 
+                <h2 class="mb-0">DEFENSIVE</h2> 
+                <div class="ms-auto d-flex align-items-center"> <input type="checkbox" onclick="selectAllCheckboxes3(this)" class="form-check-input" id="sa3" name="sa3" value=""> 
+                <label class="form-check-label ms-2" for="check1">Select all</label> 
+            </div> 
+        </div> 
+        </div>
             <div class="card-body">
                 <div class="container text-center">
                     <div class="row mb-3">
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check3" name="option3" value="E/MG-101 HMG Emplacement" checked>
-                            <label class="form-check-label ms-2" for="check1">E/MG-101 HMG Emplacement</label>
+                            <input type="checkbox" class="form-check-input" id="check48" name="option3" value="E/MG-101 HMG Emplacement" checked>
+                            <label class="form-check-label ms-2" for="check48">E/MG-101 HMG Emplacement</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check3" name="option3" value="FX-12 Shield Generator Relay" checked>
-                            <label class="form-check-label ms-2" for="check1">FX-12 Shield Generator Relay</label>
+                            <input type="checkbox" class="form-check-input" id="check49" name="option3" value="FX-12 Shield Generator Relay" checked>
+                            <label class="form-check-label ms-2" for="check49">FX-12 Shield Generator Relay</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check3" name="option3" value="A/ARC-3 Tesla Tower" checked>
-                            <label class="form-check-label ms-2" for="check1">A/ARC-3 Tesla Tower</label>
+                            <input type="checkbox" class="form-check-input" id="check50" name="option3" value="A/ARC-3 Tesla Tower" checked>
+                            <label class="form-check-label ms-2" for="check50">A/ARC-3 Tesla Tower</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check3" name="option3" value="MD-6 Anti-Personnel Mines" checked>
-                            <label class="form-check-label ms-2" for="check1">MD-6 Anti-Personnel Mines</label>
-                            
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check3" name="option3" value="MD-I4 Incendiary Mines" checked>
-                            <label class="form-check-label ms-2" for="check1">MD-I4 Incendiary Mines</label>
-                            
-                        </div>
-                        <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check3" name="option3" value="MD-17 Anti-Tank Mines" checked>
-                            <label class="form-check-label ms-2" for="check1">MD-17 Anti-Tank Mines</label>
-                            
-                        </div>
-                        <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check3" name="option3" value="MD-8 Gas Mines">
-                            <label class="form-check-label ms-2" for="check1">MD-8 Gas Mines</label>
-                        </div>
-                        <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check3" name="option3" value="A/MG-43 Machine Gun Sentry" checked>
-                            <label class="form-check-label ms-2" for="check1">MG-43 Machine Gun Sentry</label>
+                            <input type="checkbox" class="form-check-input" id="check51" name="option3" value="MD-6 Anti-Personnel Mines" checked>
+                            <label class="form-check-label ms-2" for="check51">MD-6 Anti-Personnel Mines</label>
                             
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check3" name="option3" value="A/G-16 Gatling Sentry" checked>
-                            <label class="form-check-label ms-2" for="check1">A/G-16 Gatling Sentry</label>
+                            <input type="checkbox" class="form-check-input" id="check52" name="option3" value="MD-I4 Incendiary Mines" checked>
+                            <label class="form-check-label ms-2" for="check52">MD-I4 Incendiary Mines</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check3" name="option3" value="A/M-12 Mortar Sentry" checked>
-                            <label class="form-check-label ms-2" for="check1">A/M-12 Mortar Sentry</label>
+                            <input type="checkbox" class="form-check-input" id="check53" name="option3" value="MD-17 Anti-Tank Mines" checked>
+                            <label class="form-check-label ms-2" for="check53">MD-17 Anti-Tank Mines</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check3" name="option3" value="A/AC-8 Autocannon Sentry" checked>
-                            <label class="form-check-label ms-2" for="check1">A/AC-8 Autocannon Sentry</label>
-                            
+                            <input type="checkbox" class="form-check-input" id="check54" name="option3" value="MD-8 Gas Mines">
+                            <label class="form-check-label ms-2" for="check54">MD-8 Gas Mines</label>
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check3" name="option3" value="A/MLS-4X Rocket Sentry" checked>
-                            <label class="form-check-label ms-2" for="check1">A/MLS-4X Rocket Sentry</label>
+                            <input type="checkbox" class="form-check-input" id="check55" name="option3" value="A/MG-43 Machine Gun Sentry" checked>
+                            <label class="form-check-label ms-2" for="check55">MG-43 Machine Gun Sentry</label>
                             
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check3" name="option3" value="A/M-23 EMS Mortar Sentry" checked>
-                            <label class="form-check-label ms-2" for="check1">A/M-23 EMS Mortar Sentry</label>
+                            <input type="checkbox" class="form-check-input" id="check56" name="option3" value="A/G-16 Gatling Sentry" checked>
+                            <label class="form-check-label ms-2" for="check56">A/G-16 Gatling Sentry</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check3" name="option3" value="E/AT-12 Anti-Tank Emplacement">
-                            <label class="form-check-label ms-2" for="check1">AT-12 AntiTank Emplacement</label>
+                            <input type="checkbox" class="form-check-input" id="check57" name="option3" value="A/M-12 Mortar Sentry" checked>
+                            <label class="form-check-label ms-2" for="check57">A/M-12 Mortar Sentry</label>
+                            
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check3" name="option3" value="A/FLAM-40 Flame Sentry">
-                            <label class="form-check-label ms-2" for="check1">A/FLAM-40 Flame Sentry</label>
+                            <input type="checkbox" class="form-check-input" id="check58" name="option3" value="A/AC-8 Autocannon Sentry" checked>
+                            <label class="form-check-label ms-2" for="check58">A/AC-8 Autocannon Sentry</label>
+                            
+                        </div>
+                        <div class="col">
+                            <input type="checkbox" class="form-check-input" id="check59" name="option3" value="A/MLS-4X Rocket Sentry" checked>
+                            <label class="form-check-label ms-2" for="check59">A/MLS-4X Rocket Sentry</label>
+                            
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <input type="checkbox" class="form-check-input" id="check60" name="option3" value="A/M-23 EMS Mortar Sentry" checked>
+                            <label class="form-check-label ms-2" for="check60">A/M-23 EMS Mortar Sentry</label>
+                            
+                        </div>
+                        <div class="col">
+                            <input type="checkbox" class="form-check-input" id="check61" name="option3" value="E/AT-12 Anti-Tank Emplacement">
+                            <label class="form-check-label ms-2" for="check61">AT-12 AntiTank Emplacement</label>
+                        </div>
+                        <div class="col">
+                            <input type="checkbox" class="form-check-input" id="check62" name="option3" value="A/FLAM-40 Flame Sentry">
+                            <label class="form-check-label ms-2" for="check62">A/FLAM-40 Flame Sentry</label>
                         </div>
                         <div class="col">
                             
@@ -397,75 +418,82 @@
         </div>
 
         <div class="card border-warning mb-5">
-            <div class="card-header border-warning h2">BOOSTERS</div>
+            <div class="card-header border-warning">                
+                <div class="d-flex align-items-center"> 
+                <h2 class="mb-0">BOOSTERS</h2> 
+                <div class="ms-auto d-flex align-items-center"> <input type="checkbox" onclick="selectAllCheckboxes4(this)" class="form-check-input" id="sa4" name="sa4" value=""> 
+                <label class="form-check-label ms-2" for="check1">Select all</label> 
+            </div> 
+        </div> 
+        </div>
             <div class="card-body">
                 <div class="container text-center">
                 <div class="row mb-3">
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check4" name="option4" value="Hellpod Space Optimization" checked>
-                            <label class="form-check-label ms-2" for="check1">Hellpod Space Optimization</label>
+                            <input type="checkbox" class="form-check-input" id="check63" name="option4" value="Hellpod Space Optimization" checked>
+                            <label class="form-check-label ms-2" for="check63">Hellpod Space Optimization</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check4" name="option4" value="Vitality Enhancement" checked>
-                            <label class="form-check-label ms-2" for="check1">Vitality Enhancement</label>
+                            <input type="checkbox" class="form-check-input" id="check64" name="option4" value="Vitality Enhancement" checked>
+                            <label class="form-check-label ms-2" for="check64">Vitality Enhancement</label>
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check4" name="option4" value="UAV Recon Booster" checked>
-                            <label class="form-check-label ms-2" for="check1">UAV Recon Booster</label>
+                            <input type="checkbox" class="form-check-input" id="check65" name="option4" value="UAV Recon Booster" checked>
+                            <label class="form-check-label ms-2" for="check65">UAV Recon Booster</label>
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check4" name="option4" value="Stamina Enhancement" checked>
-                            <label class="form-check-label ms-2" for="check1">Stamina Enhancement</label>
+                            <input type="checkbox" class="form-check-input" id="check66" name="option4" value="Stamina Enhancement" checked>
+                            <label class="form-check-label ms-2" for="check66">Stamina Enhancement</label>
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check4" name="option4" value="Muscle Enhancement" checked>
-                            <label class="form-check-label ms-2" for="check1">Muscle Enhancement</label>
+                            <input type="checkbox" class="form-check-input" id="check67" name="option4" value="Muscle Enhancement" checked>
+                            <label class="form-check-label ms-2" for="check67">Muscle Enhancement</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check4" name="option4" value="Increased Reinforcement Budget" checked>
-                            <label class="form-check-label ms-2" for="check1">Increased Reinforcement</label>
+                            <input type="checkbox" class="form-check-input" id="check68" name="option4" value="Increased Reinforcement Budget" checked>
+                            <label class="form-check-label ms-2" for="check68">Increased Reinforcement</label>
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check4" name="option4" value="Flexible Reinforcement Budget">
-                            <label class="form-check-label ms-2" for="check1">Flexible Reinforcement</label>
+                            <input type="checkbox" class="form-check-input" id="check69" name="option4" value="Flexible Reinforcement Budget">
+                            <label class="form-check-label ms-2" for="check69">Flexible Reinforcement</label>
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check4" name="option4" value="Localization Confusion Booster">
-                            <label class="form-check-label ms-2" for="check1">Localization Confusion</label>
+                            <input type="checkbox" class="form-check-input" id="check70" name="option4" value="Localization Confusion Booster">
+                            <label class="form-check-label ms-2" for="check70">Localization Confusion</label>
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check4" name="option4" value="Expert Extraction Pilot Booster">
-                            <label class="form-check-label ms-2" for="check1">Expert Extraction Pilot</label>
+                            <input type="checkbox" class="form-check-input" id="check71" name="option4" value="Expert Extraction Pilot Booster">
+                            <label class="form-check-label ms-2" for="check71">Expert Extraction Pilot</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check4" name="option4" value="Motivational Shocks">
-                            <label class="form-check-label ms-2" for="check1">Motivational Shocks</label>
+                            <input type="checkbox" class="form-check-input" id="check72" name="option4" value="Motivational Shocks">
+                            <label class="form-check-label ms-2" for="check72">Motivational Shocks</label>
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check4" name="option4" value="Experimental Infusion">
-                            <label class="form-check-label ms-2" for="check1">Experimental Infusion</label>
+                            <input type="checkbox" class="form-check-input" id="check73" name="option4" value="Experimental Infusion">
+                            <label class="form-check-label ms-2" for="check73">Experimental Infusion</label>
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check4" name="option4" value="Firebomb Hellpods">
-                            <label class="form-check-label ms-2" for="check1">Firebomb Hellpods</label>
+                            <input type="checkbox" class="form-check-input" id="check74" name="option4" value="Firebomb Hellpods">
+                            <label class="form-check-label ms-2" for="check74">Firebomb Hellpods</label>
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check4" name="option4" value="Dead Sprint">
-                            <label class="form-check-label ms-2" for="check1">Dead Sprint</label>
+                            <input type="checkbox" class="form-check-input" id="check75" name="option4" value="Dead Sprint">
+                            <label class="form-check-label ms-2" for="check75">Dead Sprint</label>
                             
                         </div>
                         <div class="col">
-                            <input type="checkbox" class="form-check-input" id="check4" name="option4" value="Armed Resupply Pods">
-                            <label class="form-check-label ms-2" for="check1">Armed Resupply Pods</label>
+                            <input type="checkbox" class="form-check-input" id="check76" name="option4" value="Armed Resupply Pods">
+                            <label class="form-check-label ms-2" for="check76">Armed Resupply Pods</label>
                         </div>
                         <div class="col">
                         </div>
@@ -583,6 +611,31 @@
                 const shuffled = array.sort(() => 0.5 - Math.random());
                 return shuffled.slice(0, num);
             }
+
+
+
+            function selectAllCheckboxes1(source) { 
+                checkboxes = document.getElementsByName('option1'); 
+                for(var i in checkboxes) 
+                checkboxes[i].checked = source.checked; 
+            }
+            function selectAllCheckboxes2(source) { 
+                checkboxes = document.getElementsByName('option2'); 
+                for(var i in checkboxes) 
+                checkboxes[i].checked = source.checked; 
+            }
+            function selectAllCheckboxes3(source) { 
+                checkboxes = document.getElementsByName('option3'); 
+                for(var i in checkboxes) 
+                checkboxes[i].checked = source.checked; 
+            }
+            function selectAllCheckboxes4(source) { 
+                checkboxes = document.getElementsByName('option4'); 
+                for(var i in checkboxes) 
+                checkboxes[i].checked = source.checked; 
+            }
+
+
         </script>
 
     </div>
